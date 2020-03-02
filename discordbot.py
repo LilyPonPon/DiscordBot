@@ -4,7 +4,6 @@ import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
 
-TOKEN = 'NjgyMDY0NzU4MTc4MTg1MzMy.Xlx87g.MVqNiwuZEfNn9CM8LVjL72MqSFY'
 
 db      = sqlite3.connect('db\scheduleDataS2002.db')
 lite    = db.cursor()
@@ -150,4 +149,4 @@ async def on_message(message):
         await message.channel.send("( ・∀・)つ うんこー")
 
 # Botの起動とDiscordサーバーへの接続
-client.run(TOKEN)
+client.run(DISCORD_BOT_TOKEN)
