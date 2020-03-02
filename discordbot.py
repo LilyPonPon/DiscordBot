@@ -4,7 +4,7 @@ import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
+DISCORD_BOT_TOKEN='NjgyMDY0NzU4MTc4MTg1MzMy.XlyCjQ.qHUtyCuPkEzw9q9OunjYr6kCgZo'
 db      = sqlite3.connect('db\scheduleDataS2002.db')
 lite    = db.cursor()
 client  = discord.Client()
