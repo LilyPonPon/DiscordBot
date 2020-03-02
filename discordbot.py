@@ -4,7 +4,7 @@ import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
 
-TOKEN = 'NjgyMDY0NzU4MTc4MTg1MzMy.Xlej8A.LpOKMXRf56il_tRT7RlwL7PB4g0'
+TOKEN = 'NjgyMDY0NzU4MTc4MTg1MzMy.Xlx87g.MVqNiwuZEfNn9CM8LVjL72MqSFY'
 
 db      = sqlite3.connect('db\scheduleDataS2002.db')
 lite    = db.cursor()
