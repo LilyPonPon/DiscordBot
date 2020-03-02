@@ -96,7 +96,7 @@ async def on_message(message):
         data4 = str(List[3])
         lite.execute("insert into " + tblname + " values(" + data1 + data2 + data3 + data4 + ");" )
         db.commit()
-        if data4 > 1000:
+        if int(data4) > 1000:
             await message.channel.send('★稼ぐにゃっ!!!')
         else:
             await message.channel.send('●予約だにゃーん')
