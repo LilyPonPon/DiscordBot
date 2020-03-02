@@ -3,6 +3,7 @@ import sqlite3
 import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
 
 db      = sqlite3.connect('db\scheduleDataS2002.db')
 lite    = db.cursor()
