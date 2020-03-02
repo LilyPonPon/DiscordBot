@@ -148,4 +148,4 @@ async def on_message(message):
         await message.channel.send("( ・∀・)つ うんこー")
 
 # Botの起動とDiscordサーバーへの接続
-client.run(DISCORD_BOT_TOKEN)
+client.run(os.environ.get('DISCORD_BOT_TOKEN'))
