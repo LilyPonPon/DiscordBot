@@ -72,6 +72,7 @@ async def on_message(message):
         sample_data=table
         df = pd.DataFrame(sample_data,columns=['ボス名','周回数','名前','予想ダメージ(万)'])
         fig, ax = plt.subplots(figsize=(4.8,len(sample_data)*0.5))
+        plt.rcParams[‘font.family’] = ‘IPAexGothic’
         ax.axis('off')
         ax.axis('tight')
         ax.table(cellText=df.values,
